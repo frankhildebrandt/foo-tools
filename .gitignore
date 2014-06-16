@@ -1,0 +1,6 @@
+/.idea
+/temp
+/build
+/vendor
+/composer.lock
+FooTools.iml

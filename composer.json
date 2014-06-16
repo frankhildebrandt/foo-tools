@@ -1,0 +1,24 @@
+{
+    "name": "frankhildebrandt/foo-tools",
+    "description": "a bunch of helpfull tools, most of then defined as a pimple service",
+    "minimum-stability": "dev",
+    "license": "gplv3",
+    "authors": [
+        {
+            "name": "Frank Hildebrandt",
+            "email": "frank.hildebrandt@me.com"
+        }
+    ],
+    "require": {
+        "pimple/pimple": "2.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Frahil\\FooTools\\": "src/",
+            "Frahil\\FooToolsTest\\": "tests/"
+        }
+    }
+}
