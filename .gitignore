@@ -4,3 +4,4 @@
 /vendor
 /composer.lock
 FooTools.iml
+*.config.php
